@@ -14,6 +14,7 @@ public class UserWeb001Starter {
     }
     @Bean
     public RestTemplate getRestTemplate(){
+        System.out.println("nihao");
         return new RestTemplate();
     }
 }
